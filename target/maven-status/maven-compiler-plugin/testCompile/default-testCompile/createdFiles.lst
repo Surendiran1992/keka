@@ -1,0 +1,5 @@
+POM_Pages\HomePage.class
+POM_Pages\LoginPage.class
+TestRunner\TestRunner.class
+TestRunner\TestRunner_ClockOut.class
+StepDefinitions\StepDef.class

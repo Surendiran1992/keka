@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-14T11:41:49.832Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7281026200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepDef.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Clocking out of kekaPortal at evening",
+        "description": "",
+        "id": "automating-the-keka-portal-for-login-and-logout;clocking-out-of-kekaportal-at-evening",
+        "after": [
+          {
+            "result": {
+              "duration": 269246100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5360212600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am loging into keka portal with \"surendiran.t@techouts.com\" and \"keka@automate123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"surendiran.t@techouts.com\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"keka@automate123\"",
+                  "offset": 66
+                }
+              ],
+              "location": "StepDefinitions.StepDef.i_am_loging_into_keka_portal_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13282118700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I press the clock-out button in home page",
+            "match": {
+              "location": "StepDefinitions.StepDef.i_press_the_clock_out_button_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31197200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be clocked-out for the day",
+            "match": {
+              "location": "StepDefinitions.StepDef.i_should_be_clocked_out_for_the_day()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193450000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "logout from the keka portal",
+            "match": {
+              "location": "StepDefinitions.StepDef.logout_from_the_keka_portal()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@kekaAutomate"
+          },
+          {
+            "name": "@kekaLogout"
+          }
+        ]
+      }
+    ],
+    "name": "Automating the keka portal for login and logout",
+    "description": "",
+    "id": "automating-the-keka-portal-for-login-and-logout",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature_File/keka.feature",
+    "tags": [
+      {
+        "name": "@kekaAutomate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
